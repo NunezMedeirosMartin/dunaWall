@@ -293,3 +293,54 @@ body {
 
 
 
+/* FORMA DE TRABAJO */
+
+.forma-trabajo {
+  max-width: 950px;
+  margin: 100px auto 0;
+  padding: 0 20px;
+}
+
+.forma-trabajo h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.pasos-trabajo {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.paso {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 26px 30px;
+  border-left: 4px solid #ff4081;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.paso p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+
+
+@media (max-width: 768px) {
+  .forma-trabajo {
+    margin-top: 70px;
+  }
+
+  .forma-trabajo h2 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+  }
+
+  .paso {
+    padding: 22px;
+  }
+}
